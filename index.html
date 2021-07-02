@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Bài tập cơ bản -->
+    <!-- Bài tập 1 -->
+    <div class="container">
+        <div class="card">
+            <div class="card-header bg-primary d-flex justify-content-center">
+                Xuất 3 số theo thứ tự tăng dần
+            </div>
+            <div class="card-body">
+                <div class="form-group">
+                    <label for="so1">Số 1:</label>
+                    <input type="text" id="so1" class="form-control" />
+                    <label for="so2">Số 2:</label>
+                    <input type="text" id="so2" class="form-control" />
+                    <label for="so3">Số 3:</label>
+                    <input type="text" id="so3" class="form-control" />
+                </div>
+                <div class="d-flex justify-content-center">
+                    <button onclick="sapXep()" class="btn btn-success">
+                        Sắp xếp
+                    </button>
+                </div>
+                <div id="count" class="text-center">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bài tập 2 -->
+    <div class="container">
+        <div class="card">
+            <div class="card-header bg-primary d-flex justify-content-center">
+                Chào hỏi
+            </div>
+            <div class="card-body">
+                <div class="form-group">
+                    <label for="user">Ai là người đang sử dụng:</label>
+                    <input type="text" id="user" class="form-control" />
+                </div>
+                <div class="d-flex justify-content-center">
+                    <button onclick="sayHello()" class="btn btn-success">
+                        Click Me
+                    </button>
+                </div>
+                <div id="hello" class="text-center">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bài tập 3 -->
+    <div class="container">
+        <div class="card">
+            <div class="card-header bg-primary d-flex justify-content-center">
+                Số chẵn, số lẻ
+            </div>
+            <div class="card-body">
+                <div class="form-group">
+                    <label for="soNguyen1">Số Nguyên 1:</label>
+                    <input type="text" id="soNguyen1" class="form-control" />
+                    <label for="soNguyen2">Số Nguyên 2:</label>
+                    <input type="text" id="soNguyen2" class="form-control" />
+                    <label for="soNguyen3">Số Nguyên 3:</label>
+                    <input type="text" id="soNguyen3" class="form-control" />
+                </div>
+                <div class="d-flex justify-content-center">
+                    <button onclick="congThuc()" class="btn btn-success">
+                        Tính tổng số chẵn và số lẻ
+                    </button>
+                </div>
+                <div id="hello" class="text-center">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bài tập 4 -->
+    <div class="container">
+        <div class="card">
+            <div class="card-header bg-primary d-flex justify-content-center">
+                Xác định tam giác
+            </div>
+            <div class="card-body">
+                <div class="form-group">
+                    <label for="canh1">Cạnh 1:</label>
+                    <input type="text" id="canh1" class="form-control" />
+                    <label for="canh2">Cạnh 2:</label>
+                    <input type="text" id="canh2" class="form-control" />
+                    <label for="canh3">Cạnh 3:</label>
+                    <input type="text" id="canh3" class="form-control" />
+                </div>
+                <div class="d-flex justify-content-center">
+                    <button onclick="tamGiac()" class="btn btn-success">
+                        Xác định tam giác
+                    </button>
+                </div>
+                <div id="tamGiac" class="text-center">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bài tập nâng cao -->
+    <!-- Bài tập 1 -->
+    <div class="container">
+        <div class="card">
+            <div class="card-header bg-primary d-flex justify-content-center">
+                Xác định ngày tháng năm
+            </div>
+            <div class="card-body">
+                <div class="form-group">
+                    <label for="ngay">Ngày:</label>
+                    <input type="text" id="ngay" class="form-control" />
+                    <label for="thang">Tháng:</label>
+                    <input type="text" id="thang" class="form-control" />
+                    <label for="nam">Năm:</label>
+                    <input type="text" id="nam" class="form-control" />
+                </div>
+                <div class="d-flex justify-content-center">
+                    <button onclick="dateMonth()" class="btn btn-success">
+                        Ngày tháng năm
+                    </button>
+                </div>
+                <div id="date" class="text-center">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
